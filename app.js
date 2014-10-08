@@ -1,7 +1,11 @@
 var express = require('express');
 var app = express();
 
-app.get('/sms', function(req, res){
+app.get('/', function(req, res) {
+	res.send('Hey there, waiting for an SMS');
+});
+
+app.post('/sms', function(req, res){
   console.log(req);
 });
 
