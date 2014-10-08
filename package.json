@@ -1,0 +1,7 @@
+{
+	"name": "codius-example-twilio",
+	"main": "app.js",
+	"dependencies": {
+		"express": "^4.9.5"
+	}
+}
